@@ -46,20 +46,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TestScreen1Component } from './test-screen1/test-screen1.component';
 import { MainScreenComponent } from "./components/MainScreen/MainScreen";
-import { MainScreenComponent3 } from "./components/MainScreen3/MainScreen3";
 import { ReactiveFormsModule } from "@angular/forms";
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   declarations: [
     AppComponent,
     TestScreen1Component,
     MainScreenComponent,
-    MainScreenComponent3
   ],
   imports: [
     BrowserModule,
     ReactiveFormsModule,
     AppRoutingModule,
+    HttpClientModule,
     MatButtonModule,
     MatIconModule,
     MatCardModule,

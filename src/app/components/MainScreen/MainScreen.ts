@@ -22,9 +22,6 @@ import {
   Validators
 } from "@angular/forms";
 import { MatTableDataSource } from "@angular/material/table";
-import { MatPaginator } from "@angular/material/paginator";
-import { CdkDragDrop, moveItemInArray } from "@angular/cdk/drag-drop";
-import { MatSort } from "@angular/material/sort";
 
 @Component({
   selector: "app-main-screen",
